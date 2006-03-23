@@ -1,0 +1,16 @@
+---
+name: SQL-ReservedWords-Oracle
+version: 0.1
+author:
+  - 'Christian Hansen C<ch@ngmedia.com>'
+abstract: Reserved SQL words by Oracle
+license: perl
+requires:
+  Sub::Exporter: 0
+build_requires:
+  Test::More: 0
+provides:
+  SQL::ReservedWords::Oracle:
+    file: lib/SQL/ReservedWords/Oracle.pm
+    version: 0.1
+generated_by: Module::Build version 0.2611
